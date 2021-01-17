@@ -25,9 +25,9 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        java -jar forge-1.12.2-14.23.5.2854-installer.jar --install
+        java -jar forge-1.12.2-14.23.5.2838-installer.jar --install
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: forge-1.16.1-32.0.67
+        name: forge
         path: D:\a\Forge
